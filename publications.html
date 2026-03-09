@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="next-head-count" content="2" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="/_next/static/media/a34f9d1faa5f3315-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust" />
+    <link rel="preload" href="/_next/static/css/ef7064c9fdaaf1c5.css" as="style" crossorigin="" />
+    <link rel="stylesheet" href="/_next/static/css/ef7064c9fdaaf1c5.css" crossorigin="" data-n-g="" /><noscript data-n-css=""></noscript>
+    <style>
+      .overlay-menu{position:fixed;top:0;right:0;left:0;background:rgba(0,0,0,0.9);color:#fff;display:none;z-index:9999;padding:1.5rem}.overlay-menu ul{list-style:none;margin:0;padding:0;text-align:right}.overlay-menu li{margin:0.5rem 0}.overlay-menu a{color:#fff;text-decoration:none;font-weight:600}body.menu-open .overlay-menu{display:block}
+    </style>
+    <style data-href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZs.woff) format('woff')
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZs.woff) format('woff')
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2) format('woff2');
+            unicode-range: U+1F00-1FFF
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2) format('woff2');
+            unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2) format('woff2');
+            unicode-range: U+1F00-1FFF
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2) format('woff2');
+            unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+    </style>
+</head>
+
+<body>
+    <div id="__next">
+        <div class="__className_36bd41">
+            <header id="header" class="reveal">
+                <h1><a href="/">ESBG</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li style="-webkit-user-select:none;cursor:pointer;white-space:nowrap;opacity:1"><a>▼ Menu</a></li>
+                        <li style="white-space:nowrap;padding-left:30px"><a href="/join">Join Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <nav id="overlay-menu" class="overlay-menu">
+                <ul>
+                    <li><a href="/#research">Research</a></li>
+                    <li><a href="/news.html">News</a></li>
+                    <li><a href="/publications.html">Publications</a></li>
+                    <li><a href="/#people">People</a></li>
+                    <li><a href="/join.html">Join Us</a></li>
+                </ul>
+            </nav>
+            <div class="wrapper style1">
+                <section id="main" class="container">
+                    <header class="major">
+                        <h2>Publications</h2>
+                    </header>
+                    <section id="content" class="box"><a href="#" class="image fit"><img alt="" loading="lazy" width="1222" height="432" decoding="async" data-nimg="1" style="color:transparent;width:100%;height:auto" src="/images/pic04.jpg" /></a>
+                        <h3>Publications</h3>
+                        <ol>
+                            <li>
+                                <h3>Deciphering the unique autoregulatory mechanisms and substrate specificity of the understudied DCLK3 kinase linked to neurodegenerative diseases</h3>
+                                <p>Venkat, A., et al.</p>
+                                <p>Journal of Biological Chemistry, 2025</p><a href="https://www.jbc.org/article/S0021-9258(25)02516-5/fulltext" class="button small">Article</a><a href="https://doi.org/10.1016/j.jbc.2025.107467" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Structural and evolutionary insights into understudied bacterial serine–threonine pseudokinase families</h3>
+                                <p>Bhattacharya, N., et al.</p>
+                                <p>Biochemical Society Transactions, 2025</p><a href="https://portlandpress.com/biochemsoctrans/article/53/05/1207/236549/Structural-and-evolutionary-insights-into" class="button small">Article</a><a href="https://doi.org/10.1042/BST20240988" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Multi-omics reveals new links between Fructosamine-3-Kinase (FN3K) and core metabolic pathways</h3>
+                                <p>Shrestha, S., Taujale, R., Katiyar, S., and Kannan, N.</p>
+                                <p>npj Systems Biology and Applications, 2024</p><a href="https://www.nature.com/articles/s41540-024-00390-0" class="button small">Article</a><a href="https://doi.org/10.1038/s41540-024-00390-0" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Using explainable machine learning to uncover the kinase–substrate interaction landscape</h3>
+                                <p>Zhou, Z., Kannan, N., et al.</p>
+                                <p>Bioinformatics, 2024</p><a href="https://academic.oup.com/bioinformatics/article/40/2/btae033/7582285" class="button small">Article</a><a href="https://doi.org/10.1093/bioinformatics/btae033" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Informatic challenges and advances in illuminating the druggable proteome</h3>
+                                <p>Kannan, N., et al.</p>
+                                <p>Drug Discovery Today, 2024</p><a href="https://www.sciencedirect.com/science/article/pii/S1359644624000199" class="button small">Article</a><a href="https://doi.org/10.1016/j.drudis.2024.103861" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>An atlas of bacterial serine-threonine kinases reveals functional diversity and key distinctions from eukaryotic kinases</h3>
+                                <p>Bhattacharya, N., et al.</p>
+                                <p>Science Signaling, 2024</p><a href="https://www.science.org/doi/full/10.1126/scisignal.adt8686" class="button small">Article</a><a href="https://doi.org/10.1126/scisignal.adt8686" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Predicting protein and pathway associations for understudied dark kinases using pattern-constrained knowledge graph embedding</h3>
+                                <p>Salcedo, M.V., Gravel, N., Keshavarzi, A., Huang, L.C., Kochut, K.J. and Kannan, N.</p>
+                                <p>PeerJ, 2023</p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10590106/" class="button small">Article</a><a href="https://doi.org/10.7717%2Fpeerj.15815" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Mechanistic and evolutionary insights into isoform-specific &#x27;supercharging&#x27; in DCLK family kinases</h3>
+                                <p>Venkat, A., Watterson, G., Byrne, D.P., Boyle, B.O., Shrestha, S., Gravel, N., Fairweather, E.E., Daly, L.A., Bunn, C., Yeung, W., Aggarwal, I, Katiyar, S., Eyers, C.E., Eyers, P.A., and Kannan, N.</p>
+                                <p>elife, 2023</p><a href="https://pubmed.ncbi.nlm.nih.gov/37034755/" class="button small">Article</a><a href="https://doi.org/10.1101/2023.03.29.534689" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Prevalence and Homology of the Pneumococcal Serine-Rich Repeat Protein at the Global Scale</h3>
+                                <p>Aceil, J., Venkat, A., Pan, E., Kannan, N. and Avci, F.</p>
+                                <p>Microbiology Spectrum, 2023</p><a href="https://pubmed.ncbi.nlm.nih.gov/36995217/" class="button small">Article</a><a href="https://doi.org/10.1128/spectrum.03252-22" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Structural and biochemical insight into a modular β-1, 4-galactan synthase in plants</h3>
+                                <p>Prabhakar, P.K., Pereira, J.H., Taujale, R., Shao, W., Bharadwaj, V.S., Chapla, D., Yang, J.Y., Bomble, Y.J., Moremen, K.W., Kannan, N., Hammel, M., Adams, P.D., Scheller, H.V., and Urbanowicz, B.R.</p>
+                                <p>Nature Plants, 2023</p><a href="https://pubmed.ncbi.nlm.nih.gov/36849618/" class="button small">Article</a><a href="https://doi.org/10.1038/s41477-023-01358-4" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Phosformer: an explainable transformer model for protein kinase-specific phosphorylation predictions</h3>
+                                <p>Zhou, Z., Yeung, W., Gravel, N., Salcedo, M., Soleymani, S., Li, S. and Kannan, N.</p>
+                                <p>Bioinformatics, 2023</p><a href="https://pubmed.ncbi.nlm.nih.gov/36692152/" class="button small">Article</a><a href="https://doi.org/10.1093/bioinformatics/btad046" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Evolutionary and cellular analysis of the ‘dark’pseudokinase PSKH2</h3>
+                                <p>Byrne, D.P., Shrestha, S., Daly, L.A., Marensi, V., Ramakrishnan, K., Eyers, C.E., Kannan, N. and Eyers, P.A.</p>
+                                <p>Biochemical Journal, 2023</p><a href="https://pubmed.ncbi.nlm.nih.gov/36520605/" class="button small">Article</a><a href="https://doi.org/10.1042/bcj20220474" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Tree visualizations of protein sequence embedding space enable improved functional clustering of diverse protein superfamilies</h3>
+                                <p>Yeung, W., Zhou, Z., Mathew, L., Gravel, N., Taujale, R., O’Boyle, B., Salcedo, M., Venkat, A., Lanzilotta, W., Li, S. and Kannan, N.</p>
+                                <p>Briefings in Bioinformatics, 2023</p><a href="https://pubmed.ncbi.nlm.nih.gov/36642409/" class="button small">Article</a><a href="https://doi.org/10.1093/bib/bbac619" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Alignment-free estimation of sequence conservation for identifying functional sites using protein sequence embeddings</h3>
+                                <p>Yeung, W., Zhou, Z., Li, S. and Kannan, N.</p>
+                                <p>Briefings in Bioinformatics, 2023</p><a href="https://pubmed.ncbi.nlm.nih.gov/36631405/" class="button small">Article</a><a href="https://doi.org/10.1093/bib/bbac599" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Protein kinase inhibitor selectivity “hinges” on evolution</h3>
+                                <p>Shrestha, S., Bendzunas, G. and Kannan, N.</p>
+                                <p>Structure, 2022</p><a href="https://pubmed.ncbi.nlm.nih.gov/36459973/" class="button small">Article</a><a href="https://doi.org/10.1016/j.str.2022.11.004" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Polymerization of the backbone of the pectic polysaccharide rhamnogalacturonan I</h3>
+                                <p>Amos, R.A., Atmodjo, M.A., Huang, C., Gao, Z., Venkat, A., Taujale, R., Kannan, N., Moremen, K.W. and Mohnen, D.</p>
+                                <p>Nature Plants, 2022</p><a href="https://pubmed.ncbi.nlm.nih.gov/36357524/" class="button small">Article</a><a href="https://doi.org/10.1038/s41477-022-01270-3" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Mutations in protein kinase Cγ promote spinocerebellar ataxia type 14 by impairing kinase autoinhibition</h3>
+                                <p>Pilo, C.A., Baffi, T.R., Kornev, A.P., Kunkel, M.T., Malfavon, M., Chen, D.H., Rossitto, L.A., Chen, D.X., Huang, L.C., Longman, C. and Kannan, N.</p>
+                                <p>Science signaling, 2022</p><a href="https://pubmed.ncbi.nlm.nih.gov/36166510/" class="button small">Article</a><a href="https://doi.org/10.1126/scisignal.abk1147" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Modularity of the hydrophobic core and evolution of functional diversity in fold A glycosyltransferases.</h3>
+                                <p>Venkat, A., Tehrani, D., Taujale, R., Yeung, W., Gravel, N., Moremen, K.W. and Kannan, N.</p>
+                                <p>The Journal of biological chemistry, 2022</p><a href="https://pubmed.ncbi.nlm.nih.gov/35780833/" class="button small">Article</a><a href="http://doi.org/10.1016/j.jbc.2022.102212" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Functional classification and validation of yeast prenylation motifs using machine learning and genetic reporters.</h3>
+                                <p>Berger, B.M., Yeung, W., Goyal, A., Zhou, Z., Hildebrandt, E.R., Kannan, N. and Schmidt, W.K.</p>
+                                <p>PloS one, 2022</p><a href="https://pubmed.ncbi.nlm.nih.gov/35749383/" class="button small">Article</a><a href="http://doi.org/10.1371/journal.pone.0270128" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Computational tools and resources for pseudokinase research.</h3>
+                                <p>O&#x27;Boyle, B., Shrestha, S., Kochut, K., Eyers, P.A. and Kannan, N.</p>
+                                <p>Methods in Enzymology, 2022</p><a href="https://pubmed.ncbi.nlm.nih.gov/35525549/" class="button small">Article</a><a href="http://doi.org/10.1016/bs.mie.2022.03.040" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Target 2035-update on the quest for a probe for every protein.</h3>
+                                <p>Mueller, S., Ackloo, S., Al Chawaf, A., Al-Lazikani, B., Antolin, A., Baell, J. B., ... Kannan N, ... Arrowsmith, C. H.</p>
+                                <p>RSC Medicinal Chemistry, 2022</p><a href="https://pubmed.ncbi.nlm.nih.gov/35211674/" class="button small">Article</a><a href="http://doi.org/10.1039/d1md00228g" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Mapping the glycosyltransferase fold landscape using interpretable deep learning.</h3>
+                                <p>Taujale, R., Zhou, Z., Yeung, W., Moremen, K. W., Li, S., and Kannan N</p>
+                                <p>Nature Communications, 2021</p><a href="https://pubmed.ncbi.nlm.nih.gov/34580305/" class="button small">Article</a><a href="http://doi.org/10.1038/s41467-021-25975-9" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Evolution of Functional Diversity in the Holozoan Tyrosine Kinome.</h3>
+                                <p>Yeung, W., Kwon, A., Taujale, R., Bunn, C., Venkat, A., and Kannan N.</p>
+                                <p>Molecular Biology and Evolution, 2021</p><a href="Evolution of Functional Diversity in the Holozoan Tyrosine Kinome." class="button small">Article</a><a href="http://doi.org/10.1093/molbev/msab272" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>GTXplorer: A portal to navigate and visualize the evolutionary information encoded in fold A glycosyltransferases.</h3>
+                                <p>Taujale, R., Soleymani, S., Priyadarshi, A., Venkat, A., Yeung, W., Kochut, K. J., and Kannan N.</p>
+                                <p>Glycobiology, 2021</p><a href="https://pubmed.ncbi.nlm.nih.gov/34351427/" class="button small">Article</a><a href="http://doi.org/10.1016/j.jbc.2021.100843" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Peters plus syndrome mutations affect the function and stability of human beta 1,3-glucosyltransferase.</h3>
+                                <p>Zhang, A., Venkat, A., Taujale, R., Mull, J. L., Ito, A., Kannan N., and Haltiwanger, R. S.</p>
+                                <p>Journal of Biological Chemistry</p><a href="https://pubmed.ncbi.nlm.nih.gov/34058199/" class="button small">Article</a><a href="http://doi.org/10.1016/j.jbc.2021.100843" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>mTORC2 controls the activity of PKC and Akt by phosphorylating a conserved TOR interaction motif.</h3>
+                                <p>Baffi, T. R., Lorden, G., Wozniak, J. M., Feichtner, A., Yeung, W., Kornev, A. P., ... Kannan N., ... Newton, A. C.</p>
+                                <p>Science Signaling, 2021</p><a href="https://pubmed.ncbi.nlm.nih.gov/33850054/" class="button small">Article</a><a href="http://doi.org/10.1126/scisignal.abe4509" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Conformational interconversion of MLKL and disengagement from RIPK3 precede cell death by necroptosis.</h3>
+                                <p>Garnish, S.E., Meng, Y., Koide, A., Sandow, J.J., Denbaum, E., Jacobsen, A.V., Yeung, W., Samson, A.L., Horne, C.R., ... Kannan, N. ... and Young, S.N.</p>
+                                <p>Nature Communications, 2021</p><a href="https://pubmed.ncbi.nlm.nih.gov/33850121/" class="button small">Article</a><a href="http://doi.org/10.1038/s41467-021-22400-z" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Granulovirus PK-1 kinase activity relies on a side-to-side dimerization mode centered on the regulatory αC helix.</h3>
+                                <p>Oliver, M.R., Horne, C.R., Shrestha, S., Keown, J.R., Liang, L.Y., Young, S.N., Sandow, J.J., Webb, A.I., Goldstone, D.C., Lucet, I.S. and Kannan, N.</p>
+                                <p>Nature Communications, 2021</p><a href="https://pubmed.ncbi.nlm.nih.gov/33579933/" class="button small">Article</a><a href="http://doi.org/10.1038/s41467-021-21191-7" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>KinOrtho: a method for mapping human kinase orthologs across the tree of life and illuminating understudied kinases.</h3>
+                                <p>Huang, L.C., Taujale, R., Gravel, N., Venkat, A., Yeung, W., Byrne, D.P., Eyers, P.A. and Kannan, N.</p>
+                                <p>BMC Bioinformatics, 2021</p><a href="https://pubmed.ncbi.nlm.nih.gov/34537014/" class="button small">Article</a><a href="http://doi.org/10.1186/s12859-021-04358-3" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>A Chemical Probe for Dark Kinase STK17B Derives Its Potency and High Selectivity through a Unique P-Loop Conformation.</h3>
+                                <p>Picado A, Chaikuad A, Wells CI, Shrestha S, Zuercher WJ, Pickett JE, Kwarcinski FE, Sinha P, de Silva CS, Zutshi R, Liu S, Kannan N, Knapp S, Drewry DH, Willson TM.</p>
+                                <p>J Med Chem, 2020</p><a href="https://pubmed.ncbi.nlm.nih.gov/33215924/" class="button small">Article</a><a href="http://doi.org/10.1186/s12859-020-03842-6" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li>
+                                <h3>Quantitative Structure-Mutation-Activity Relationship Tests (QSMART) model for protein kinase inhibitor response prediction.</h3>
+                                <p>Huang LC, Yeung W, Wang Y, Cheng H, Venkat A, Li S, Ma P, Rasheed K, and Kannan N</p>
+                                <p>BMC Bioinformatics, 2020</p><a href="https://pubmed.ncbi.nlm.nih.gov/33183223/" class="button small">Article</a><a href="http://doi.org/10.1186/s12859-020-03842-6" class="button alt small">DOI</a>
+                                <hr />
+                            </li>
+                            <li><a href="https://scholar.google.com/citations?user=fab1dOwAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+                        </ol>
+                    </section>
+                </section>
+            </div>
+            <footer id="footer">
+                <ul class="menu">
+                    <li><a href="/#research">Research</a></li>
+                    <li><a href="/#people">People</a></li>
+                    <li><a href="/#contact">Contact</a></li>
+                    <li><a href="/join">Join</a></li>
+                </ul>
+                <div class="copyright">© All rights reserved.</div>
+            </footer>
+        </div>
+    </div>
+    <script src="/menu.js"></script>
+</body>
+
+</html>

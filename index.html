@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="next-head-count" content="2" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="/_next/static/media/a34f9d1faa5f3315-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust" />
+    <link rel="preload" href="/_next/static/media/d8f8e544930f1a55-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust" />
+    <link rel="preload" href="/_next/static/media/304a17b14710fd18-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust" />
+    <link rel="preload" href="/_next/static/media/d1cee41db5bb7bad-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust" />
+    <link rel="preload" href="/_next/static/css/ef7064c9fdaaf1c5.css" as="style" crossorigin="" />
+    <link rel="stylesheet" href="/_next/static/css/ef7064c9fdaaf1c5.css" crossorigin="" data-n-g="" />
+    <link rel="preload" href="/_next/static/css/2a5ff50246615580.css" as="style" crossorigin="" />
+    <link rel="stylesheet" href="/_next/static/css/2a5ff50246615580.css" crossorigin="" data-n-p="" />
+    <noscript data-n-css=""></noscript>
+    <style>
+      .overlay-menu{position:fixed;top:0;right:0;left:0;background:rgba(0,0,0,0.9);color:#fff;display:none;z-index:9999;padding:1.5rem}.overlay-menu ul{list-style:none;margin:0;padding:0;text-align:right}.overlay-menu li{margin:0.5rem 0}.overlay-menu a{color:#fff;text-decoration:none;font-weight:600}body.menu-open .overlay-menu{display:block}
+    </style>
+    <style data-href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZs.woff) format('woff')
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZs.woff) format('woff')
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2) format('woff2');
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2) format('woff2');
+        unicode-range: U+1F00-1FFF
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2) format('woff2');
+        unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2) format('woff2');
+        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2) format('woff2');
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2) format('woff2');
+        unicode-range: U+1F00-1FFF
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2) format('woff2');
+        unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2) format('woff2');
+        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+      }
+    </style>
+  </head>
+  <body>
+    <div id="__next">
+      <div class="__className_36bd41">
+        <header id="header" class="reveal">
+          <h1>
+            <a href="/">ESBG</a>
+          </h1>
+          <nav id="nav">
+            <ul>
+              <li style="-webkit-user-select:none;cursor:pointer;white-space:nowrap;opacity:1">
+                <a>▼ Menu</a>
+              </li>
+              <li style="white-space:nowrap;padding-left:30px">
+                <a href="/join">Join Us</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <nav id="overlay-menu" class="overlay-menu">
+          <ul>
+            <li><a href="/#research">Research</a></li>
+            <li><a href="/news.html">News</a></li>
+            <li><a href="/publications.html">Publications</a></li>
+            <li><a href="/#people">People</a></li>
+            <li><a href="/join.html">Join Us</a></li>
+          </ul>
+        </nav>
+        <div id="page-wrapper">
+          <section id="banner" class="__className_27e777">
+            <h2 class="__className_27e777">EVOLUTIONARY SYSTEMS BIOLOGY LAB</h2>
+            <h2 class="__className_a86662" style="font-size:30px;color:#b8f8b6">Kannan Lab </h2>
+            <div class="__className_f8de9b" style="font-size:10px;vertical-align:middle">
+              <p>Institute of Bioinformatics <br />Department of Biochemistry &amp; Molecular Biology <br />University of Georgia </p>
+            </div>
+            <ul class="actions" style="margin-top:10px">
+              <a href="#introduction" class="image featured">
+                <img alt="ESBG" loading="lazy" width="461" height="162" decoding="async" data-nimg="1" style="color:transparent" src="/images/home.jpg" />
+              </a>
+            </ul>
+          </section>
+          <div class="wrapper style1">
+            <section class="container">
+              <header class="major">
+                <h2>
+                  <a name="introduction">ESBG LAB</a>
+                </h2>
+                <p class="__className_f8de9b" style="font-size:1.2em;text-align:justify">We are an interdisciplinary research group leveraging advances in artificial intelligence, bioinformatics, and systems biochemistry to map the complex relationships connecting protein sequence, structure, function, and evolution. We focus on biomedically important protein families such as protein kinases, glycosyltransferases, and ion channels that are causally associated with human diseases such as cancer, diabetes, and neurodegenerative disorders. We aim to develop personalized therapeutic strategies for these diseases based on a deeper understanding of how these proteins work in normal and disease states. <br />
+                  <br />If you are interested in joining our lab, please get in touch with Dr. Kannan to discuss <a href="/join">current openings and opportunities.</a>
+                </p>
+              </header>
+              <div>
+                <div class="row uniform">
+                  <div class="4u 12u(narrower)">
+                    <section class="box special">
+                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="pen" class="svg-inline--fa fa-pen fa-lg icon major" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="currentColor" d="M362.7 19.3L314.3 67.7 444.3 197.7l48.4-48.4c25-25 25-65.5 0-90.5L453.3 19.3c-25-25-65.5-25-90.5 0zm-71 71L58.6 323.5c-10.4 10.4-18 23.3-22.2 37.4L1 481.2C-1.5 489.7 .8 498.8 7 505s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L421.7 220.3 291.7 90.3z"></path>
+                      </svg>
+                      <h3>
+                        <u>
+                          <a href="#research">Research</a>
+                        </u>
+                      </h3>
+                    </section>
+                  </div>
+                  <div class="4u 12u(narrower)">
+                    <section class="box special">
+                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="newspaper" class="svg-inline--fa fa-newspaper fa-lg icon major" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="currentColor" d="M96 96c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H80c-44.2 0-80-35.8-80-80V128c0-17.7 14.3-32 32-32s32 14.3 32 32V400c0 8.8 7.2 16 16 16s16-7.2 16-16V96zm64 24v80c0 13.3 10.7 24 24 24H296c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24H184c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16z"></path>
+                      </svg>
+                      <h3>
+                        <u>
+                          <a href="#news">News</a>
+                        </u>
+                      </h3>
+                    </section>
+                  </div>
+                  <div class="4u 12u(narrower)">
+                    <section class="box special">
+                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="book-open-reader" class="svg-inline--fa fa-book-open-reader fa-lg icon major" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="currentColor" d="M160 96a96 96 0 1 1 192 0A96 96 0 1 1 160 96zm80 152V512l-48.4-24.2c-20.9-10.4-43.5-17-66.8-19.3l-96-9.6C12.5 457.2 0 443.5 0 427V224c0-17.7 14.3-32 32-32H62.3c63.6 0 125.6 19.6 177.7 56zm32 264V248c52.1-36.4 114.1-56 177.7-56H480c17.7 0 32 14.3 32 32V427c0 16.4-12.5 30.2-28.8 31.8l-96 9.6c-23.2 2.3-45.9 8.9-66.8 19.3L272 512z"></path>
+                      </svg>
+                      <h3>
+                        <u>
+                          <a href="/publications">Publications</a>
+                        </u>
+                      </h3>
+                    </section>
+                  </div>
+                </div>
+                <div class="row uniform">
+                  <div class="4u 12u(narrower)">
+                    <section class="box special">
+                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="laptop-code" class="svg-inline--fa fa-laptop-code fa-lg icon major" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                        <path fill="currentColor" d="M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"></path>
+                      </svg>
+                      <h3>
+                        <u>
+                          <a href="#software">Software</a>
+                        </u>
+                      </h3>
+                    </section>
+                  </div>
+                  <div class="4u 12u(narrower)">
+                    <section class="box special">
+                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="people-group" class="svg-inline--fa fa-people-group fa-lg icon major" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                        <path fill="currentColor" d="M72 88a56 56 0 1 1 112 0A56 56 0 1 1 72 88zM64 245.7C54 256.9 48 271.8 48 288s6 31.1 16 42.3V245.7zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 12 65.8 32 90.5V416c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V389.2C26.2 371.2 0 332.7 0 288c0-61.9 50.1-112 112-112h32c24 0 46.2 7.5 64.4 20.3zM448 416V394.5c20-24.7 32-56.2 32-90.5c0-42.8-18.7-81.3-48.4-107.7C449.8 183.5 472 176 496 176h32c61.9 0 112 50.1 112 112c0 44.7-26.2 83.2-64 101.2V416c0 17.7-14.3 32-32 32H480c-17.7 0-32-14.3-32-32zm8-328a56 56 0 1 1 112 0A56 56 0 1 1 456 88zM576 245.7v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM240 304c0 16.2 6 31 16 42.3V261.7c-10 11.3-16 26.1-16 42.3zm144-42.3v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM448 304c0 44.7-26.2 83.2-64 101.2V448c0 17.7-14.3 32-32 32H288c-17.7 0-32-14.3-32-32V405.2c-37.8-18-64-56.5-64-101.2c0-61.9 50.1-112 112-112h32c61.9 0 112 50.1 112 112z"></path>
+                      </svg>
+                      <h3>
+                        <u>
+                          <a href="#people">People</a>
+                        </u>
+                      </h3>
+                    </section>
+                  </div>
+                  <div class="4u 12u(narrower)">
+                    <section class="box special">
+                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-group" class="svg-inline--fa fa-user-group fa-lg icon major" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                        <path fill="currentColor" d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM609.3 512H471.4c5.4-9.4 8.6-20.3 8.6-32v-8c0-60.7-27.1-115.2-69.8-151.8c2.4-.1 4.7-.2 7.1-.2h61.4C567.8 320 640 392.2 640 481.3c0 17-13.8 30.7-30.7 30.7zM432 256c-31 0-59-12.6-79.3-32.9C372.4 196.5 384 163.6 384 128c0-26.8-6.6-52.1-18.3-74.3C384.3 40.1 407.2 32 432 32c61.9 0 112 50.1 112 112s-50.1 112-112 112z"></path>
+                      </svg>
+                      <h3>
+                        <u>
+                          <a href="#collaborators">Collaborators</a>
+                        </u>
+                      </h3>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="wrapper style2">
+            <section class="container">
+              <header class="major">
+                <h2>
+                  <a name="research">ONGOING RESEARCH</a>
+                </h2>
+                <p>This is an overview of current research in the lab. You can click on each title for detailed information.</p>
+              </header>
+              <div class="row uniform">
+                <div class="4u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="dna" class="svg-inline--fa fa-dna fa-lg icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M416 0c17.7 0 32 14.3 32 32c0 59.8-30.3 107.5-69.4 146.6c-28 28-62.5 53.5-97.3 77.4l-2.5 1.7c-11.9 8.1-23.8 16.1-35.5 23.9l0 0 0 0 0 0-1.6 1c-6 4-11.9 7.9-17.8 11.9c-20.9 14-40.8 27.7-59.3 41.5H283.3c-9.8-7.4-20.1-14.7-30.7-22.1l7-4.7 3-2c15.1-10.1 30.9-20.6 46.7-31.6c25 18.1 48.9 37.3 69.4 57.7C417.7 372.5 448 420.2 448 480c0 17.7-14.3 32-32 32s-32-14.3-32-32H64c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-59.8 30.3-107.5 69.4-146.6c28-28 62.5-53.5 97.3-77.4c-34.8-23.9-69.3-49.3-97.3-77.4C30.3 139.5 0 91.8 0 32C0 14.3 14.3 0 32 0S64 14.3 64 32H384c0-17.7 14.3-32 32-32zM338.6 384H109.4c-10.1 10.6-18.6 21.3-25.5 32H364.1c-6.8-10.7-15.3-21.4-25.5-32zM109.4 128H338.6c10.1-10.7 18.6-21.3 25.5-32H83.9c6.8 10.7 15.3 21.3 25.5 32zm55.4 48c18.4 13.8 38.4 27.5 59.3 41.5c20.9-14 40.8-27.7 59.3-41.5H164.7z"></path>
+                    </svg>
+                    <h3>
+                      <u>
+                        <a href="research1">Mapping genome-phenome relationships in large protein families</a>
+                      </u>
+                    </h3>
+                    <p>Proteins are essential for life and their malfunctions are linked to diseases. Our lab studies these complex molecules to develop new therapies.</p>
+                    <a href="research1" class="button alt">READ MORE</a>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-nodes" class="svg-inline--fa fa-circle-nodes fa-lg icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                      <path fill="currentColor" d="M418.4 157.9c35.3-8.3 61.6-40 61.6-77.9c0-44.2-35.8-80-80-80c-43.4 0-78.7 34.5-80 77.5L136.2 151.1C121.7 136.8 101.9 128 80 128c-44.2 0-80 35.8-80 80s35.8 80 80 80c12.2 0 23.8-2.7 34.1-7.6L259.7 407.8c-2.4 7.6-3.7 15.8-3.7 24.2c0 44.2 35.8 80 80 80s80-35.8 80-80c0-27.7-14-52.1-35.4-66.4l37.8-207.7zM156.3 232.2c2.2-6.9 3.5-14.2 3.7-21.7l183.8-73.5c3.6 3.5 7.4 6.7 11.6 9.5L317.6 354.1c-5.5 1.3-10.8 3.1-15.8 5.5L156.3 232.2z"></path>
+                    </svg>
+                    <h3>
+                      <u>
+                        <a href="research2">AI and Deep learning models for biochemical applications</a>
+                      </u>
+                    </h3>
+                    <p>AI is revolutionizing biochemistry by analyzing protein sequences, like a code, to predict changes, group enzymes, and classify proteins.</p>
+                    <a href="research2" class="button alt">READ MORE</a>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-simple" class="svg-inline--fa fa-chart-simple fa-lg icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M160 80c0-26.5 21.5-48 48-48h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H208c-26.5 0-48-21.5-48-48V80zM0 272c0-26.5 21.5-48 48-48H80c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V272zM368 96h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H368c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48z"></path>
+                    </svg>
+                    <h3>
+                      <u>
+                        <a href="research3">Evolutionary Data Analytics</a>
+                      </u>
+                    </h3>
+                    <p>Huge datasets from &quot;omic&quot; studies hold promise for protein research, but require user-friendly tools to analyze this complex information. Our lab builds user friendly tools for researchers.</p>
+                    <a href="research3" class="button alt">READ MORE</a>
+                  </section>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="wrapper style3">
+            <section class="container">
+              <header class="major">
+                <h2>
+                  <a name="news">News</a>
+                </h2>
+              </header>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <br />
+                    <div class="image fit">
+                      <img alt="News Item" loading="lazy" width="461" height="162" decoding="async" data-nimg="1" style="color:transparent" src="/images/IMG_1660_2d270c43ed.jpg" />
+                    </div>
+                    <p>2024-08-12</p>
+                    <h3>Congratulations to Brady for winning the best presentation award at the EMBO Pseudoenzymes meeting in Girona, Spain</h3>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <br />
+                    <div class="image fit">
+                      <img alt="News Item" loading="lazy" width="461" height="162" decoding="async" data-nimg="1" style="color:transparent" src="/images/news.png" />
+                    </div>
+                    <p>2024-04-10</p>
+                    <h3>Grace Watterson receives NSF GRFP fellowship!</h3>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <br />
+                    <div class="image fit">
+                      <img alt="News Item" loading="lazy" width="461" height="162" decoding="async" data-nimg="1" style="color:transparent" src="/images/news.png" />
+                    </div>
+                    <p>2024-02-01</p>
+                    <a href="https://www.linkedin.com/in/zhongliang-douglas-zhou-ph-d-330449192/">
+                      <h3>Zhongliang Zhou joins Merck as a senior scientist. Congrats Zhongliang!</h3>
+                    </a>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <br />
+                    <div class="image fit">
+                      <img alt="News Item" loading="lazy" width="461" height="162" decoding="async" data-nimg="1" style="color:transparent" src="/images/news.png" />
+                    </div>
+                    <p>2024-01-10</p>
+                    <h3>Zhongliang Zhou successfully defends his thesis</h3>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <br />
+                    <div class="image fit">
+                      <img alt="News Item" loading="lazy" width="461" height="162" decoding="async" data-nimg="1" style="color:transparent" src="/images/news.png" />
+                    </div>
+                    <p>2023-12-15</p>
+                    <h3>George Bendzunas joins Lectinz Bio as Research Scientist</h3>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <br />
+                    <div class="image fit">
+                      <img alt="News Item" loading="lazy" width="461" height="162" decoding="async" data-nimg="1" style="color:transparent" src="/images/news.png" />
+                    </div>
+                    <p>2023-12-05</p>
+                    <h3>Aarya Venkat starts a new position as Protein Engineer III at Ginkgo Bioworks in Boston</h3>
+                  </section>
+                </div>
+              </div>
+              <br />
+            </section>
+          </div>
+          <div class="wrapper style2">
+            <section class="container 75%">
+              <header class="major">
+                <h2>
+                  <a name="software">Software</a>
+                </h2>
+                <a href="software" class="button alt">All Software</a>
+              </header>
+              <div class="row uniform">
+                <div class="6u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="laptop-code" class="svg-inline--fa fa-laptop-code fa-sm icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                      <path fill="currentColor" d="M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"></path>
+                    </svg>
+                    <h3>LATEST SOFTWARE</h3>
+                    <p>
+                      <a href="https://doi.org/10.1093/bioinformatics/btad046" class="button alt">PHOSFORMER</a>
+                      <a href="https://doi.org/10.1101/2022.02.25.482021" class="button alt">ProKinO</a>
+                      <a href="https://doi.org/10.1093/glycob/cwab082" class="button alt">GTxplorer</a>
+                    </p>
+                  </section>
+                </div>
+                <div class="6u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="code-branch" class="svg-inline--fa fa-code-branch fa-sm icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M80 104a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm80-24c0 32.8-19.7 61-48 73.3v87.8c18.8-10.9 40.7-17.1 64-17.1h96c35.3 0 64-28.7 64-64v-6.7C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V160c0 70.7-57.3 128-128 128H176c-35.3 0-64 28.7-64 64v6.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V352 153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm232 0a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM80 456a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path>
+                    </svg>
+                    <h3>github</h3>
+                    <p>
+                      <a href="https://github.com/esbgkannan" class="button alt">ESBGKANNAN</a>
+                    </p>
+                  </section>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="wrapper style3">
+            <section class="container">
+              <header class="major">
+                <h2>
+                  <a name="people">PEOPLE</a>
+                </h2>
+              </header>
+              <div class="outer-div">
+                <div class="inner-div">
+                  <section class="special">
+                    <a href="http://www.bmb.uga.edu/directory/natarajan-kannan">
+                      <img alt="Kannan" loading="lazy" width="382" height="573" decoding="async" data-nimg="1" style="color:transparent;width:100%;max-width:382px;height:auto" src="/images/kannan2.jpg" />
+                    </a>
+                    <h3>Dr. Natarajan Kannan</h3>
+                    <p>
+                      <b>Professor and Georgia Coalition Distinguished Scholar</b>
+                    </p>
+                    <ul class="actions">
+                      <li>
+                        <a href="http://www.bmb.uga.edu/directory/natarajan-kannan" class="button alt">Homepage</a>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="#" class="image fit">
+                      <img alt="Nathan Gravel" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/gravel_7b55e68a61.jpg" />
+                    </a>
+                    <h3 style="margin:0">Nathan Gravel</h3>
+                    <p>Graduate Research Assistant <br />Bioinformatics </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <!-- Nathan Kleber moved to Alumni -->
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <!-- Brady O'Boyle moved to Alumni -->
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="http://www.bmb.uga.edu/directory/dr-samiksha-katiyar" class="image fit">
+                      <img alt="Dr. Samiksha Katiyar" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/sami_ea0f7aad51.jpg" />
+                    </a>
+                    <h3 style="margin:0">Dr. Samiksha Katiyar</h3>
+                    <p>Assistant Research Scientist <br />Bioinformatics </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="./" class="image fit">
+                      <img alt="Ruili Fang" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/ruili_a8cf2b7f83.jpg" />
+                    </a>
+                    <h3 style="margin:0">Ruili Fang</h3>
+                    <p>Graduate Research Assistant <br />Computer Science </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <!-- Safal Shrestha moved to Alumni -->
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <!-- Saber Soleymani moved to Alumni -->
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a class="image fit">
+                      <img alt="Neha Gupta" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/neha_gupta_0cb21effb5.png" />
+                    </a>
+                    <h3 style="margin:0">Neha Gupta</h3>
+                    <p>Graduate Research Assistant <br />Bioinformatics </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a class="image fit">
+                      <img alt="Ryan Bhowmik" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/Ryan_Bhowmik_737a861421.jpg" />
+                    </a>
+                    <h3 style="margin:0">Ryan Bhowmik</h3>
+                    <p>Graduate Research Assistant <br />Bioinformatics </p>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <!-- Jason Lu moved to Alumni -->
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <!-- Parnian Rahimi moved to Alumni -->
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <!-- Farzaneh Saadati moved to Alumni -->
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a class="image fit">
+                      <img alt="Neena Praveen" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/Neena.JPG" />
+                    </a>
+                    <h3 style="margin:0">Neena Praveen</h3>
+                    <p>Undergraduate Research Assistant <br />Biochemistry </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a class="image fit">
+                      <img alt="Anup Prasad" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/anup.jpg" />
+                    </a>
+                    <h3 style="margin:0">Anup Prasad</h3>
+                    <p>Postdoc <br />Biochemistry </p>
+                  </section>
+                </div>
+              </div>
+              <br />
+              <header class="major">
+                <h2>
+                  <a name="people">ALUMNI</a>
+                </h2>
+              </header>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="http://iob.uga.edu/students/huang-liang-chin/" class="image fit">
+                      <img alt="Liang-Chin Huang" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/liang_cffea05b72.jpg" />
+                    </a>
+                    <h3 style="margin:0">Liang-Chin Huang</h3>
+                    <p>Principal NLP Scientist, Intelligent Medical Objects, Houton <br />Bioinformatics </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="./" class="image fit">
+                      <img alt="Mariah Salcedo" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/maya_9a4219d71e.jpg" />
+                    </a>
+                    <h3 style="margin:0">Mariah Salcedo</h3>
+                    <p>Graduate Research Assistant <br />Bioinformatics </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="https://aaryakat.com/" class="image fit">
+                      <img alt="Aarya Venkat" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/aarya_346dd65492.jpg" />
+                    </a>
+                    <h3 style="margin:0">Aarya Venkat</h3>
+                    <p>Protein Engineer III Ginkgo Bioworks <br />Biochemistry </p>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="./" class="image fit">
+                      <img alt="Andrew Lamb" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/image_soon_903579346d.png" />
+                    </a>
+                    <h3 style="margin:0">Andrew Lamb</h3>
+                    <p>Foundation Fellow <br />Biochemistry </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="https://www.researchgate.net/profile/Ayda_Farhadi" class="image fit">
+                      <img alt="Ayda Farhadi" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/ayda_8b164a9137.jpg" />
+                    </a>
+                    <h3 style="margin:0">Ayda Farhadi</h3>
+                    <p>Senior Data Scientist (UPS) <br />Computer Science </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="http://cobweb.cs.uga.edu/~hashemi/" class="image fit">
+                      <img alt="Navid Hashemi" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/navid_c9a0355e96.jpg" />
+                    </a>
+                    <h3 style="margin:0">Navid Hashemi</h3>
+                    <p>Assistant Professor of Computer Science, South Carolina <br />Computer Science </p>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="./" class="image fit">
+                      <img alt="Claire Bunn" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/claire_f7c19d7209.png" />
+                    </a>
+                    <h3 style="margin:0">Claire Bunn</h3>
+                    <p>Gates Cambridge Scholar <br />Genetics </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="https://www.researchgate.net/profile/Carlos_Sanz-Rodriguez" class="image fit">
+                      <img alt="Carlos E Sanz" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/carlos_547a4e4c08.jpg" />
+                    </a>
+                    <h3 style="margin:0">Carlos E Sanz</h3>
+                    <p>Assistant Investigator at Institut Pasteur de Montevideo <br />Biochemistry </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="http://www.bmb.uga.edu/directory/daniel-mcskimming" class="image fit">
+                      <img alt="Daniel McSkimming" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/daniel_0846f2b6ca.png" />
+                    </a>
+                    <h3 style="margin:0">Daniel McSkimming</h3>
+                    <p>Assistant Professor, University of South Florida <br />Bioinformatics </p>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="http://profiles.ucsf.edu/eric.talevich" class="image fit">
+                      <img alt="Eric Talevich" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/eric_5bbeb65a31.jpg" />
+                    </a>
+                    <h3 style="margin:0">Eric Talevich</h3>
+                    <p>Scientific Solutions Architect, Form Bio <br />Bioinformatics </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="./" class="image fit">
+                      <img alt="George Bendzunas" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/georgeb_23354949c3.jpg" />
+                    </a>
+                    <h3 style="margin:0">George Bendzunas</h3>
+                    <p>Research Scientist - Lectenz Bio <br />Biochemistry </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="./" class="image fit">
+                      <img alt="Grace Watterson" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/grace1h_ddd182543f.jpeg" />
+                    </a>
+                    <h3 style="margin:0">Grace Watterson</h3>
+                    <p>Undergraduate Research Assistant <br />Biochemistry </p>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="https://www.linkedin.com/in/annie-kwon-phd-54378763" class="image fit">
+                      <img alt="Hyunjin Annie Kwon" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/annie_d7c30ed229.jpg" />
+                    </a>
+                    <h3 style="margin:0">Hyunjin Annie Kwon</h3>
+                    <p>Scientist, Amgen <br />Bioinformatics </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="./" class="image fit">
+                      <img alt="Ishan Aggarwal" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/ishan_9790d05cb0.jpeg" />
+                    </a>
+                    <h3 style="margin:0">Ishan Aggarwal</h3>
+                    <p>Medical College of Georgia <br />Biochemistry </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="https://www.linkedin.com/in/krishnadevoruganty" class="image fit">
+                      <img alt="Krishnadev Oruganty" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/krish_d5abd47980.jpg" />
+                    </a>
+                    <h3 style="margin:0">Krishnadev Oruganty</h3>
+                    <p> Principal Scientist, Flagship Pioneering, Cambridge <br />Biochemistry </p>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="#" class="image fit">
+                      <img alt="Niral Thaker" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/niral_9c66a78a3b.jpg" />
+                    </a>
+                    <h3 style="margin:0">Niral Thaker</h3>
+                    <p>Medical College of Georgia <br />Biochemistry </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="./" class="image fit">
+                      <img alt="Priyanka Parikh" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/Priyanka_e48164d435.jpg" />
+                    </a>
+                    <h3 style="margin:0">Priyanka Parikh</h3>
+                    <p>Undergraduate Research Assistant <br />Biochemistry </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="https://www.linkedin.com/in/rahil-taujale/" class="image fit">
+                      <img alt="Rahil Taujale" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/rahil_3c87a5534a.jpg" />
+                    </a>
+                    <h3 style="margin:0">Rahil Taujale</h3>
+                    <p>Graduate Research Assistant <br />Bioinformatics </p>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="./" class="image fit">
+                      <img alt="Rayna Carter" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/image_soon_740df29f87.png" />
+                    </a>
+                    <h3 style="margin:0">Rayna Carter</h3>
+                    <p>Undergraduate Research Assistant <br />Biochemistry </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="https://www.linkedin.com/in/shima-dastgheib/" class="image fit">
+                      <img alt="Shima Dastgheyb" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/shima_53eb8854c8.jpg" />
+                    </a>
+                    <h3 style="margin:0">Shima Dastgheyb</h3>
+                    <p> Lead- Semantic Data Integration, Genentech, San Francisco <br />Computer Science </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="https://www.linkedin.com/in/smita-mohanty-b07862109" class="image fit">
+                      <img alt="Smita Mohanty" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/smita_e22f2c77b1.jpg" />
+                    </a>
+                    <h3 style="margin:0">Smita Mohanty</h3>
+                    <p>Postdoc <br />Biochemistry </p>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="#" class="image fit">
+                      <img alt="Steven Thomas Scott" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/steven_d5e4d6321c.jpg" />
+                    </a>
+                    <h3 style="margin:0">Steven Thomas Scott</h3>
+                    <p>Undergraduate Research Assistant <br />Genetics </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="https://www.linkedin.com/in/tuan-nguyen-a008a146" class="image fit">
+                      <img alt="Tuan Nguyen" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/tuan_ea105d5735.jpg" />
+                    </a>
+                    <h3 style="margin:0">Tuan Nguyen</h3>
+                    <p>Weill Cornell Medicine <br />Biochemistry </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="https://iob.uga.edu/graduate-students/" class="image fit">
+                      <img alt="Wayland Yeung" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/wayland_ff09d42948.jpg" />
+                    </a>
+                    <h3 style="margin:0">Wayland Yeung</h3>
+                    <p>Scientist I, Tessera Therapeutics, Cambridge <br />Bioinformatics </p>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="https://www.researchgate.net/profile/Zheng_Ruan3" class="image fit">
+                      <img alt="Zheng Ruan" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/ruan_b102dbea3b.jpg" />
+                    </a>
+                    <h3 style="margin:0">Zheng Ruan</h3>
+                    <p>Assistant Professor, Thomas Jefferson University <br />Bioinformatics </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="https://www.zhongliangzhou.com" class="image fit">
+                      <img alt="Zhongliang Zhou" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/zhongliang2_8ea8c1dca2.jpg" />
+                    </a>
+                    <h3 style="margin:0">Zhongliang Zhou</h3>
+                    <p>Senior Scientist, Merck <br />Computer Science </p>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="./" class="image fit">
+                      <img alt="Nathan Kleber" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/Nathan_K_86a5e86140.jpeg" />
+                    </a>
+                    <h3 style="margin:0">Nathan Kleber</h3>
+                    <p>Undergraduate Research Assistant <br />Biochemistry </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="./" class="image fit">
+                      <img alt="Brady O&#x27;Boyle" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/bradyoboyle_85d38b0346.jpeg" />
+                    </a>
+                    <h3 style="margin:0">Brady O&#x27;Boyle</h3>
+                    <p>Graduate Research Assistant <br />Biochemistry </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="https://savill88.github.io/personal-website/" class="image fit">
+                      <img alt="Safal Shrestha" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/safal_e215aabb39.jpg" />
+                    </a>
+                    <h3 style="margin:0">Safal Shrestha</h3>
+                    <p>Postdoc <br />Bioinformatics </p>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="https://sabersol.com" class="image fit">
+                      <img alt="Saber Soleymani" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/saber_soleymani_d971e72a0f.jpg" />
+                    </a>
+                    <h3 style="margin:0">Saber Soleymani</h3>
+                    <p>Postdoc <br />Computer Science </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a class="image fit">
+                      <img alt="Jason Lu" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/jason_lu_d1d6624fcc.jpg" />
+                    </a>
+                    <h3 style="margin:0">Jason Lu</h3>
+                    <p>Undergraduate Research Assistant <br />Bioinformatics </p>
+                  </section>
+                </div>
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a class="image fit">
+                      <img alt="Parnian Rahimi" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/parnian_71c6ee8a60.jpg" />
+                    </a>
+                    <h3 style="margin:0">Parnian Rahimi</h3>
+                    <p>Graduate Research Assistant <br />Bioinformatics </p>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a href="https://www.cs.uga.edu/directory/people/farzaneh-saadati" class="image fit">
+                      <img alt=" Farzaneh Saadati" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/farzaneh_9d873c5994.jpg" />
+                    </a>
+                    <h3 style="margin:0"> Farzaneh Saadati</h3>
+                    <p>Graduate Research Assistant <br />Computer Science </p>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="4u 12u(narrower)">
+                  <section class="special">
+                    <a class="image fit">
+                      <img alt="Tej Shidhaye" loading="lazy" width="342" height="300" decoding="async" data-nimg="1" style="color:transparent" src="/images/Tej_27d80abdc8.jpg" />
+                    </a>
+                    <h3 style="margin:0">Tej Shidhaye</h3>
+                    <p>Undergraduate Research Assistant <br />Biochemistry </p>
+                  </section>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="wrapper style2">
+            <section class="container 75%">
+              <header class="major">
+                <h2>
+                  <a name="collaborators">COLLABORATORS</a>
+                </h2>
+              </header>
+              <div class="row uniform">
+                <div class="6u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-sm icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path>
+                    </svg>
+                    <h3>
+                      <u>
+                        <a href="http://medschool.umaryland.edu/FACULTYRESEARCHPROFILE/viewprofile.aspx?id=20282">Andrew F. Neuwald</a>
+                      </u>
+                    </h3>
+                    <p>(IGS)</p>
+                  </section>
+                </div>
+                <div class="6u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-sm icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path>
+                    </svg>
+                    <h3>
+                      <u>
+                        <a href="http://cobweb.cs.uga.edu/~kochut/">Krys Kochut</a>
+                      </u>
+                    </h3>
+                    <p>(UGA)</p>
+                  </section>
+                </div>
+                <div class="6u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-sm icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path>
+                    </svg>
+                    <h3>
+                      <u>
+                        <a href="http://cobweb.cs.uga.edu/~khaled/">Khaled Rasheed</a>
+                      </u>
+                    </h3>
+                    <p>(UGA)</p>
+                  </section>
+                </div>
+                <div class="6u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-sm icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path>
+                    </svg>
+                    <h3>
+                      <u>
+                        <a href="http://www.lunenfeld.ca/researchers/sicheri">Frank Sicheri</a>
+                      </u>
+                    </h3>
+                    <p>(Mount Sinai Hospital)</p>
+                  </section>
+                </div>
+                <div class="6u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-sm icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path>
+                    </svg>
+                    <h3>
+                      <u>
+                        <a href="http://newtonlab.ucsd.edu/">Alexandra Newton</a>
+                      </u>
+                    </h3>
+                    <p>(UC San Diego)</p>
+                  </section>
+                </div>
+                <div class="6u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-sm icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path>
+                    </svg>
+                    <h3>
+                      <u>
+                        <a href="http://susantaylorlab.ucsd.edu/">Susan S. Taylor</a>
+                      </u>
+                    </h3>
+                    <p>(UC San Diego)</p>
+                  </section>
+                </div>
+                <div class="6u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-sm icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path>
+                    </svg>
+                    <h3>
+                      <u>
+                        <a href="http://manninglab.org/">Gerard Manning</a>
+                      </u>
+                    </h3>
+                    <p>(Genentech)</p>
+                  </section>
+                </div>
+                <div class="6u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-sm icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path>
+                    </svg>
+                    <h3>
+                      <u>
+                        <a href="http://med.monash.edu.au/microbiology/staff/doerig.html">Christian Doerig</a>
+                      </u>
+                    </h3>
+                    <p>(Monash University)</p>
+                  </section>
+                </div>
+                <div class="6u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-sm icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path>
+                    </svg>
+                    <h3>
+                      <u>
+                        <a href="https://med.ucf.edu/biomed/directory/profile/dr-debopam-chakrabarti/">Debopam Chakrabarti</a>
+                      </u>
+                    </h3>
+                    <p>(UCF)</p>
+                  </section>
+                </div>
+                <div class="6u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-sm icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path>
+                    </svg>
+                    <h3>
+                      <u>
+                        <a href="https://www.liverpool.ac.uk/integrative-biology/staff/patrick-eyers/">Patrick Eyers</a>
+                      </u>
+                    </h3>
+                    <p>(University of Liverpool)</p>
+                  </section>
+                </div>
+                <div class="6u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-sm icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path>
+                    </svg>
+                    <h3>
+                      <u>
+                        <a href="http://edison.ccrc.uga.edu/">Art Edison</a>
+                      </u>
+                    </h3>
+                    <p>(UGA)</p>
+                  </section>
+                </div>
+                <div class="6u 12u(narrower)">
+                  <section class="box special">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-sm icon major alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path>
+                    </svg>
+                    <h3>
+                      <u>
+                        <a href="http://cobweb.cs.uga.edu/~shengli/">Sheng Li</a>
+                      </u>
+                    </h3>
+                    <p>(UGA)</p>
+                  </section>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="wrapper style1">
+            <section class="container 75%">
+              <header class="major">
+                <h2>Contact</h2>
+                <p></p>
+              </header>
+              <div id="contact" class="box">
+                <div class="row uniform">
+                  <div class="7u 12u(narrower)">
+                    <div class="image fit">
+                      <img alt="Lab picture" loading="lazy" width="400" height="450" decoding="async" data-nimg="1" style="color:transparent" src="images/labpicture.jpg" />
+                    </div>
+                  </div>
+                  <div class="5u 12u(narrower)">
+                    <ul class="labeled-icons">
+                      <li>
+                        <h3 class="icon fa-map-marker">
+                          <span class="label">Address</span>
+                        </h3>University of Georgia <br />A318 Life Sciences Building, 120 E. Green Street <br />Athens, GA, USA, 30602-7229
+                      </li>
+                      <li>(706) 542-1714 <br />(706) 542-7326 <h3 class="icon fa-phone">
+                          <span class="label">Phone</span>
+                        </h3>
+                      </li>
+                      <li>
+                        <h3 class="icon fa-envelope">
+                          <span class="label">Email</span>
+                        </h3>
+                        <a href="mailto:nkannan@uga.edu">nkannan@uga.edu</a>
+                      </li>
+                      <li>
+                        <h3 class="icon fa-twitter">
+                          <span class="label">Twitter</span>
+                        </h3>
+                        <a href="https://twitter.com/kannanlab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @kannanlab</a>
+                        <script async="" src="https://platform.twitter.com/widgets.js"></script>
+                      </li>
+                      <li>
+                        <h3 class="icon fa-google">
+                          <span class="label">Google Scholar</span>
+                        </h3>
+                        <a href="https://scholar.google.com/citations?user=fab1dOwAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar://kannanlab</a>
+                      </li>
+                      <li>
+                        <h3 class="icon fa-linkedin">
+                          <span class="label">LinkedIn</span>
+                        </h3>
+                        <a href="https://www.linkedin.com/in/natarajan-kannan-67bb3722/">LinkedIn://Natarajan-Kannan</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <footer id="footer">
+          <ul class="menu">
+            <li>
+              <a href="/#research">Research</a>
+            </li>
+            <li>
+              <a href="/#people">People</a>
+            </li>
+            <li>
+              <a href="/#contact">Contact</a>
+            </li>
+            <li>
+              <a href="/join">Join</a>
+            </li>
+          </ul>
+          <div class="copyright">© All rights reserved.</div>
+        </footer>
+      </div>
+    </div>
+    <script src="/menu.js"></script>
+  </body>
+</html>
